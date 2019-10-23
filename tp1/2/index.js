@@ -13,10 +13,10 @@ exports = module.exports = {
     for (let index = 1; index < input.length; index++) {
       const element = input[index];
       if ((poid + element) <= 100) {
-        poid += element
+            poid += element
       } else {
-        aller_retour_compteur += 1
-        poid = element
+            aller_retour_compteur += 1
+            poid = element
       }
     }
     // AND HERE
