@@ -14,10 +14,8 @@ exports = module.exports = {
       const element = input[index];
       if ((poid + element) <= 100) {
             poid += element
-      } else {
-            aller_retour_compteur += 1
-            poid = element
       }
+      return element
     }
     // AND HERE
   },
