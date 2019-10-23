@@ -7,7 +7,16 @@ exports = module.exports = {
   datasets,
   algo: function (input) {
     // YOUR CODE BETWEEN HERE
+          for (let index = 0; index < input.length; index++) {
+      const element = input[index];
+      input = element
+      if (input == 50) {
+        // input = datasets
+        input = datasets[[0]]
+      } else if (input == 200) { 
 
+      }
+      return input
     // AND HERE
   },
   verify: function (dataset, output) {
